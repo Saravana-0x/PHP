@@ -1,0 +1,38 @@
+
+
+<?php
+
+// String Declaration
+$str1 = "Hello";
+$str2 = "Everyone";
+
+// Concatenation
+$combined = $str1 . " " . $str2;
+echo "Concatenated String: " . $combined . "<br>";
+
+// String Length
+echo "Length of String: " . strlen($combined) . "<br>";
+
+// Word Count
+echo "Word Count: " . str_word_count($combined) . "<br>";
+
+// Reverse String
+echo "Reversed String: " . strrev($combined) . "<br>";
+
+// Find Position of 'World'
+echo "Position of 'World': " . strpos($combined, "World") . "<br>";
+
+// Replace Word
+$replaced = str_replace("World", "PHP", $combined);
+echo "After Replacement: " . $replaced . "<br>";
+
+// Convert to Uppercase
+echo "Uppercase: " . strtoupper($combined) . "<br>";
+
+// Convert to Lowercase
+echo "Lowercase: " . strtolower($combined) . "<br>";
+
+// Substring
+echo "Substring (0, 5): " . substr($combined, 0, 5) . "<br>";
+?>
+
