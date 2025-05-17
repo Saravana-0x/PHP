@@ -1,0 +1,14 @@
+<?php
+   $age = 25;
+   $isMember = true;
+
+   if ($age > 18 && $isMember) {
+      echo "You are eligible for a discount!\n";
+   } else {
+      echo "Sorry, you are not eligible for a discount.\n";
+   }
+
+   if ($age < 18 || !$isMember) {
+      echo "You need to be at least 18 years old or a member to get a discount.";
+   }
+?> 
