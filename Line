@@ -1,0 +1,3 @@
+<?php
+echo "The Line number is : ". __line__;
+?>
