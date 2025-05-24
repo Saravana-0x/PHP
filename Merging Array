@@ -1,0 +1,10 @@
+<?php 
+
+$my_array1 = array("size" => "big", 2,3 ); 
+$my_array2 = array("a", "b", "size" => "medium", 
+						"shape" => "circle", 4); 
+$res = array_merge($my_array1, $my_array2); 
+
+print_r($res); 
+
+?>
