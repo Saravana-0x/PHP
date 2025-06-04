@@ -1,0 +1,23 @@
+<?php
+#declaring an associative array
+$arr = array(
+    0 => 'HTML',
+    1 => 'Python',
+    2 => 'Java',
+    3 => 'Physics'
+);
+#printing original array
+echo ("Original Array: \n");
+var_dump($arr);
+#declaring the value to delete
+$val = "Physics";
+#finding the key on the basis of value
+$key = array_search($val, $arr);
+if (($key) !== false)
+{
+    #deleting the key found
+    unset($arr[$key]);
+}
+echo ("<br><br>Modified Array: \n");
+var_dump($arr);
+?>
