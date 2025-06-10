@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h2>Other ways of using date() function</h2>
+<?php
+echo "Date in Year.Month.Day format is: " 
+    . date("Y.m.d") . "<br>";
+
+echo "Date in Year-Month-day format is: " 
+    . date("Y-m-d") . "<br>";
+
+echo "Date in Year/Month/day format is: " 
+    . date("Y/m/d") . "<br>";
+
+?>
+</body>
+</html>
